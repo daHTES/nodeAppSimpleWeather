@@ -1,0 +1,24 @@
+{
+  "name": "weatherappcustom",
+  "version": "1.0.0",
+  "description": "easy small app for waether",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "weather"
+  ],
+  "author": "dahtes",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "chalk": "^5.3.0",
+    "dedent-js": "^1.0.1"
+  }
+}
